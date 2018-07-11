@@ -1,0 +1,72 @@
+.signin {
+    &-box {
+        
+        margin: 2em 0;
+        
+    }// end .singin-box
+    
+    &-form {
+        
+        padding: 1em;
+        text-align: center;
+        
+        h1 {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 0;
+            color: #ffc107;
+        }// end .singin-form h1
+
+        label {
+            font-weight: bold;
+            font-size: 1.25em;
+            color: #003D7F;
+        }// end .singin-form label
+        
+        input {
+            text-align: center;
+            width: 60%;
+            margin: 0 auto;
+        }// end .singin-form input
+        
+        button {
+            width: 60%;
+            margin: 0 auto;
+        }// end .singin-form button
+
+        // Small devices 768px maximum
+        @media (max-width: 768px) {
+
+            input {
+                width: 80%;
+            }// end .singin-form input
+
+            button {
+                width: 80%;
+                margin: 0 auto;
+            }// end .singin-form button
+
+        }
+
+        //Small devices 400px maximum
+        @media (max-width: 400px) {
+
+            input {
+                width: 100%;
+            }// end .singin-form input
+
+            button {
+                width: 100%;
+            }// end .singin-form button
+
+        }
+
+    }// end .singin-form
+    
+}// end .singin
+
+//Desktop first approach
+
+
+
+

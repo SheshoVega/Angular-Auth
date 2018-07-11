@@ -1,0 +1,28 @@
+.navigation {
+
+    &-main {
+        a {
+
+            &:hover {
+                color: #ffc107;
+            }
+        }
+    }
+    
+    &-footer {
+
+        a.navbar-brand {
+            // color: lightblue;
+            font-size: 1em;
+
+            &:hover {
+                color: #003D7F;
+            }
+        }
+    }
+    
+}
+
+main {
+    margin: 4em 0;
+}
